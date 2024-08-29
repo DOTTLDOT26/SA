@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tides Information and Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tides Information and Quiz</h1>
+    </header>
+
+    <section id="info">
+        <h2>What Are Tides?</h2>
+        <p>
+            Tides are the periodic rise and fall of sea levels caused by the gravitational forces exerted by the Moon and the Sun, combined with the Earth's rotation. Tides occur due to the difference in gravitational pull exerted by the Moon and Sun on different parts of the Earth.
+        </p>
+        
+        <!-- Other information sections... -->
+
+    </section>
+
+    <section id="quiz">
+        <h2>Tides Quiz</h2>
+        <p>Test your knowledge about tides!</p>
+        
+        <form id="quiz-form">
+            <div class="quiz-item">
+                <label>1. What causes tides?</label>
+                <input type="radio" name="q1" value="A"> A) Wind and storms<br>
+                <input type="radio" name="q1" value="B"> B) Gravitational forces of the Moon and Sun<br>
+                <input type="radio" name="q1" value="C"> C) Ocean currents<br>
+            </div>
+
+            <!-- Additional quiz questions here -->
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+
+        <div id="result"></div>
+    </section>
+
+    <section id="resources">
+        <h2>Additional Resources on Tides</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Tide" target="_blank">Wikipedia: Tide</a></li>
+            <li><a href="https://oceanservice.noaa.gov/facts/tides.html" target="_blank">NOAA: Tides and Water Levels</a></li>
+            <li><a href="https://www.nasa.gov/feature/what-are-tides" target="_blank">NASA: What are Tides?</a></li>
+            <li><a href="https://www.britannica.com/science/tide" target="_blank">Encyclopedia Britannica: Tide</a></li>
+        </ul>
+    </section>
+
+    <!-- New Multimedia Section -->
+    <section id="multimedia">
+        <h2>Multimedia Resources</h2>
+        
+        <!-- YouTube Video Embed -->
+        <div class="video-container">
+            <h3>Understanding Tides - Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tcGEjzt_4is" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <!-- Poster Image Embed -->
+        <div class="poster-container">
+            <h3>Tides Poster</h3>
+            <img src="https://scijinks.gov/tides/tides_poster-letter.png" alt="Tides Poster" style="width:100%; max-width:600px; border:2px solid #6a5acd; border-radius:10px;">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
